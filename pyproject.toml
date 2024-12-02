@@ -14,6 +14,7 @@ ipython = "*"
 ipykernel = "*"
 jupyter = "*"
 pandas = {version="2.1.*"}
+scipy = "1.14.*"
 pims = "0.6.*"
 seaborn = "*"
 opencv-contrib-python = "~4.7"
