@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "cshl-qb-course"
+version = "0.1.0"
+description = ""
+authors = ["Hou Lab CSHL <the.hou.lab@gmail.com>"]
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+ipython = "*"
+ipykernel = "*"
+jupyter = "*"
+pandas = {version="2.1.*"}
+pims = "0.6.*"
+seaborn = "*"
+opencv-contrib-python = "~4.7"
+opencv-python = "~4.7"
+opencv-python-headless = "~4.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
