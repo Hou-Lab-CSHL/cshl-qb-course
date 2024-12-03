@@ -20,6 +20,7 @@ seaborn = "*"
 opencv-contrib-python = "~4.7"
 opencv-python = "~4.7"
 opencv-python-headless = "~4.7"
+tqdm = "*"
 
 [build-system]
 requires = ["poetry-core"]
