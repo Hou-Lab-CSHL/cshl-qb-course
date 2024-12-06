@@ -20,6 +20,8 @@ seaborn = "*"
 opencv-contrib-python = "~4.7"
 opencv-python = "~4.7"
 opencv-python-headless = "~4.7"
+plotly = "5.24.1"
+plotly-resampler = "0.10.0"
 tqdm = "*"
 
 [build-system]
