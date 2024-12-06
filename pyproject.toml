@@ -12,6 +12,7 @@ priority = "primary"
 python = "~3.11"
 ipython = "*"
 ipykernel = "*"
+ipywidgets = "8.1.5"
 jupyter = "*"
 pandas = {version="2.1.*"}
 scipy = "1.14.*"
@@ -22,6 +23,7 @@ opencv-python = "~4.7"
 opencv-python-headless = "~4.7"
 plotly = "5.24.1"
 plotly-resampler = "0.10.0"
+pyarrow = "18.1.0"
 tqdm = "*"
 
 [build-system]
