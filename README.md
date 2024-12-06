@@ -9,6 +9,6 @@
 3. Create the environment: `micromamba create -f environment.yaml`
 4. Activate the environment: `micromamba activate cshl-qb-course`
 5. Install packages: `poetry install --no-root`
-6. Download the data (follow the dropbox link in your email) and unzip the containing data folders directly into your `/cshl-qb-course/` directory (`/cshl-qb-course/fe-data/`, `/cshl-qb-course/ephys-data/` etc.)
+6. Download the data (follow the link in your email) and unzip the containing data folders directly into your `/cshl-qb-course/` directory (`/cshl-qb-course/fe-data/`, `/cshl-qb-course/ephys-data/` etc.)
 
 During class, do a `git pull` in your `/cshl-qb-course/` directory to fetch the latest content. 
