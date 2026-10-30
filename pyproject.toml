@@ -1,31 +1,32 @@
-[tool.poetry]
+[project]
 name = "cshl-qb-course"
 version = "0.1.0"
 description = ""
-authors = ["Hou Lab CSHL <the.hou.lab@gmail.com>"]
-
-[[tool.poetry.source]]
-name = "PyPI"
-priority = "primary"
-
-[tool.poetry.dependencies]
-python = "~3.11"
-ipython = "*"
-ipykernel = "*"
-ipywidgets = "8.1.5"
-jupyter = "*"
-pandas = {version="2.1.*"}
-scipy = "1.14.*"
-pims = "0.6.*"
-seaborn = "*"
-opencv-contrib-python = "~4.7"
-opencv-python = "~4.7"
-opencv-python-headless = "~4.7"
-plotly = "5.24.1"
-plotly-resampler = "0.10.0"
-pyarrow = "18.1.0"
-tqdm = "*"
+authors = [{name = "Hou Lab CSHL", email = "the.hou.lab@gmail.com"}]
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "ipython",
+    "ipykernel",
+    "ipywidgets",
+    "jupyter",
+    "pandas",
+    "scipy",
+    "pims",
+    "seaborn",
+    "opencv-contrib-python",
+    "opencv-python",
+    "opencv-python-headless",
+    "plotly",
+    "plotly-resampler",
+    "pyarrow",
+    "tqdm",
+    "anywidget>=0.11.0",
+    "matplotlib-scalebar>=0.9.0",
+]
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["projectlib"]
